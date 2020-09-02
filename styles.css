@@ -1,0 +1,92 @@
+/* *{
+  box-sizing: border-box;
+} */
+body{
+  background: #1f4068;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  /* height: 100vh; */
+  text-align: center;
+}
+
+.alphabets {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+  margin: 5px;
+}
+.alphabets:hover {
+	background-color:#5cbf2a;
+}
+.alphabets:active {
+	position:relative;
+	top:1px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+}
+.pic{
+  margin: 1% 10%;
+}
+#blank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin: 50px;
+}
+.cell{
+  border-bottom: 2px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+.chance{
+  display: flex;
+}
+.hide{
+  display: none;
+}
+.col{
+  display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+.chanceLeft{
+  padding: 10px;
+width: 14px;
+background: cyan;
+height: 14px;
+border-radius: 50%;
+margin: 5px;
+}
+.type-text{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 10%;
+}
+.options{
+  border-bottom: 2px solid white;
+  width:50px;
+  margin: 5%;
+  font-size: 1.5rem;
+
+}
+.result{
+  margin: 40px;
+}
