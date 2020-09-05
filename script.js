@@ -1,5 +1,6 @@
-
-let word = "PONDICHERRY";
+let arr = ["PONDICHERRY","DELHI","BANGALORE","HYDERABAD","SURAT"];
+let num = Math.floor(Math.random()*5);
+let word = arr[num];
 let chance = 0;
 let blankFilled = 0;
 let blanks = document.getElementById("blank");
